@@ -1,0 +1,41 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #fdf1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Success Text */
+body > :first-child {
+    font-size: 28px;
+    color: #e23744;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Link Button */
+a {
+    text-decoration: none;
+    background-color: #230104;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #c9303a;
+    transform: scale(1.05);
+}
